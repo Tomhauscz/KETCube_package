@@ -1,0 +1,49 @@
+{
+  "packages": [
+    {
+      "name": "KETCube",
+      "maintainer": "Tomas Hak",
+      "websiteURL": "https://edu.ketcube.cz",
+      "email": "info@smartcampus.cz",
+      "help": {
+        "online": "https://edu.ketcube.cz"
+      },
+      "platforms": [
+        {
+          "name": "KETCube Core",
+          "architecture": "stm32",
+          "version": "0.2.0",
+          "category": "Contributed",
+          "url": "https://github.com/Tomhauscz/KETCube_package/blob/main/KETCube_arduino_package.zip",
+          "archiveFileName":"KETCube_arduino_package.zip",
+          "checksum":"SHA-256:e57a5b0b437aeb3f38d235b12bb9fb86f4abb6f23aea5f43e4c7445ee4d9718f",
+          "size":"16960",
+          "boards": [{ "name": "KETCube_mainboard" }],
+          "toolsDependencies": [
+          {
+              "packager": "KETCube",
+              "name": "arm-none-eabi-gcc",
+              "version": "8.2.1-1.7"
+            }
+          ]
+        }
+      ],
+      "tools": [
+      {
+          "name": "arm-none-eabi-gcc",
+          "version": "8.2.1-1.7",
+          "systems":
+          [
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/arm-none-eabi-gcc/releases/download/8.2.1-1.7/gcc-arm-none-eabi-8.2.1-1.7-linux64.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-8.2.1-1.7-linux64.tar.bz2",
+              "checksum": "SHA-256:509f0358ae2f83612f1120fb63eda5eca3892238f793ae909a5bb1d85db0c1f1",
+              "size": "108286418"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
