@@ -10,11 +10,11 @@ First installation
 
 Linux system:
 
-1) Put raw url address of the JSON file from github repository into Additionla Boards Manager URLs section in the setting of the Ardiuno IDE.
+1) Put raw url address of the JSON file from GitHub repository into Additional Boards Manager URLs section in the setting of the Ardiuno IDE.
 2) Pull out Boards Manager under Tools option and search for "KETCube".
-3) It should show KETCube Core package.
+3) It should show the KETCube Core package.
 4) Click "Install" and it should automatically install the package and its dependencies.
 5) It could take a while, so be patient...
 
-After successful instalation you can use KETCube platform and develop your own software.
+After successful instalation, you can use the KETCube package and develop your own software.
 Good luck and stay creative!
