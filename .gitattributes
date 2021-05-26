@@ -1,1 +1,2 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
+KETCube_arduino_package_source/hardware/stm32/0.2.0/variants/KETCube_0.2.0/Lib/libKETCube.a filter=lfs diff=lfs merge=lfs -text
