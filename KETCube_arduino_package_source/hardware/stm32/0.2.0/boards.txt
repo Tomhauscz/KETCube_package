@@ -1,0 +1,24 @@
+menu.upload_method=Upload Method
+
+mainboard.name=KETCube_mainboard
+mainboard.build.core=arduino
+
+mainboard.upload.file_type=bin
+mainboard.upload.maximum_size=196608
+mainboard.upload.maximum_data_size=217088
+
+mainboard.build.variant=KETCube_0.2.0
+mainboard.build.mcu=cortex-m0plus
+mainboard.build.march=armv6-m
+mainboard.build.endianness=little-endian
+mainboard.build.board=mainboard
+mainboard.build.vect_flags=-DUSER_ADDR_ROM=0x08000000
+mainboard.build.extra_flags=
+mainboard.build.ldscript=linker_scripts/STM32L072CZYx_FLASH.ld
+mainboard.build.libdir=Lib
+mainboard.build.variant_system_include=-I{runtime.platform.path}/include/Drivers/STM32L0xx_HAL_Driver/Inc -I{runtime.platform.path}/include/Drivers/BSP/CMWX1ZZABZ-0xx/ -I{runtime.platform.path}/include/Drivers/BSP/Components/sx1276 -I{runtime.platform.path}/include/Drivers/CMSIS/Device/ST/STM32L0xx/Include -I{runtime.platform.path}/include/Drivers/CMSIS/Documentation/Core/html -I{runtime.platform.path}/include/Drivers/CMSIS/Documentation/DSP/html -I{runtime.platform.path}/include/Drivers/CMSIS/Include -I{runtime.platform.path}/include/Drivers/CMSIS/RTOS/Template -I{runtime.platform.path}/include/Drivers/KETCube/core -I{runtime.platform.path}/include/Drivers/KETCube/modules -I{runtime.platform.path}/include/Drivers/STM32L0xx_HAL_Driver/Inc -I{runtime.platform.path}/include/Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I{runtime.platform.path}/include/KETCube/core -I{runtime.platform.path}/include/KETCube/modules/actuation -I{runtime.platform.path}/include/KETCube/modules/communication -I{runtime.platform.path}/include/KETCube/modules/sensing -I{runtime.platform.path}/include/Middlewares/Third_Party/Lora/Conf -I{runtime.platform.path}/include/Middlewares/Third_Party/Lora/Conf/Inc -I{runtime.platform.path}/include/Middlewares/Third_Party/Lora/Core -I{runtime.platform.path}/include/Middlewares/Third_Party/Lora/Crypto -I{runtime.platform.path}/include/Middlewares/Third_Party/Lora/Mac -I{runtime.platform.path}/include/Middlewares/Third_Party/Lora/Mac/region -I{runtime.platform.path}/include/Middlewares/Third_Party/Lora/Phy -I{runtime.platform.path}/include/Middlewares/Third_Party/Lora/Utilities -I{runtime.platform.path}/include/Middlewares/Third_Party/Semtech/Utilities/ -I{runtime.platform.path}/include/Projects/inc -I{runtime.platform.path}/include/Projects/inc/actuation -I{runtime.platform.path}/include/Projects/inc/communication -I{runtime.platform.path}/include/Projects/inc/sensing -I{runtime.platform.path}/include/Projects/inc/drivers
+
+mainboard.menu.upload_method.stm32flashMethod=STM32Flash (Serial bootloader)
+mainboard.menu.upload_method.stm32flashMethod.upload.protocol=0
+mainboard.menu.upload_method.stm32flashMethod.upload.options=-i "-dtr&-rts,rts," -v -g 0x0
+mainboard.menu.upload_method.stm32flashMethod.upload.tool=stm32flash
