@@ -16,8 +16,8 @@
           "category": "Contributed",
           "url": "https://github.com/Tomhauscz/KETCube_package/raw/main/KETCube_arduino_package.zip",
           "archiveFileName":"KETCube_arduino_package.zip",
-          "checksum":"SHA-256:e57a5b0b437aeb3f38d235b12bb9fb86f4abb6f23aea5f43e4c7445ee4d9718f",
-          "size":"16960",
+          "checksum":"SHA-256:74b882662eed2d1d15e4416728f27de243a90ab14404d5a83afd7d55954da212",
+          "size":"16936",
           "boards": [{ "name": "KETCube_mainboard" }],
           "toolsDependencies": [
           {
